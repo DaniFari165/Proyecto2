@@ -7,7 +7,7 @@ package proyecto2;
 
 /**
  *
- * @author 58412
+ * @author Daniel Fariña
  */
 public class Proyecto2 {
 
