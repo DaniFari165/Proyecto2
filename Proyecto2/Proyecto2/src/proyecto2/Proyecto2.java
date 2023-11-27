@@ -40,7 +40,7 @@ public class Proyecto2 {
     String tipoReal = ""; 
     String  tipos [] = {"prioridad_alta","prioridad_media", "prioridad_baja"};   
     int tipo  = Integer.parseInt(JOptionPane.showInputDialog(null, "Para baja prioridad escriba 1, media prioridad escriba 2, alta prioridad escriba 3: ")) - 1;
-    while ( tipo >= 1 || tipo <= 3 ) {
+    while ( tipo < 1 || tipo > 3 ) {
         JOptionPane.showMessageDialog(null, "Error, ingrese un valor válido", "Tipo de usuario", 0);
         tipo  = Integer.parseInt(JOptionPane.showInputDialog(null, "Para baja prioridad escriba 1, media prioridad escriba 2, alta prioridad escriba 3: ")) - 1 ;
     }
